@@ -79,7 +79,7 @@ lo_excel = reader->load_file( p_fpath ).
   lcl_output=>output( lo_excel ).
 ```
 
-Whole program
+Whole program:
 ```
 *&---------------------------------------------------------------------*
 *& Report  Fill Template
