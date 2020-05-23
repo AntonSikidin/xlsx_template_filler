@@ -369,3 +369,28 @@ form get_file_path changing cv_path type string.
   endif.
 endform.                    " Get_file_path
 ```
+
+# Information for contributor
+
+There is some issues with merged cells and outlines.
+
+My solution handles the simplest options like this:
+
+
+![alt_text](images/image1.png "image_tooltip") 
+
+When merged cells are entirely within or out of range.
+
+But there are a few more cases that are not handled correctly.
+
+![alt_text](images/image2.png "image_tooltip") 
+
+They are not processed in any way.
+
+I have no need and time to correct these shortcomings.
+
+If you correct these shortcomings, your name will be immortalized as a contributor to this project.
+
+Correct ZCL_EXCEL_FILL_TEMPLATE->FILL_RANGE( )
+
+If you handle this, then you can apply the same actions to ZCL_EXCEL_WORKSHEET->MT_ROW_OUTLINES
